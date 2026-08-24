@@ -70,7 +70,7 @@ nav {
 }
 
 .eyebrow {
-  color: var(--clay);
+  color: var(--green);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .08em;
@@ -160,10 +160,11 @@ footer {
   background: var(--muted);
 }
 
-@media (min-width: 980px) and (max-width: 760px) {
+@media (max-width: 760px) {
   .hero,
   .feature-row,
   .vendor-grid {
     grid-template-columns: 1fr;
   }
+}
 }
