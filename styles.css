@@ -159,6 +159,9 @@ footer {
   padding: 1rem 2rem;
   background: var(--muted);
 }
+footer a {
+  color: var(--clay);
+}
 
 @media (max-width: 760px) {
   .hero,
